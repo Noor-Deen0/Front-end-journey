@@ -1,0 +1,49 @@
+p {
+    color: green;
+    font-size: 16px;
+  }
+  p {
+    font-size: 20px;
+  }
+  body {
+    background-color: lightgray;
+  }
+  h1 {
+    text-align: center;
+  }
+  body {
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    color: darkblue;
+    text-align: center;
+  }
+  div {
+    width: 200px;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 10px;
+  }
+  p {
+    display: block;
+  }
+  
+  span {
+    display: inline;
+  }
+  div {
+    position: static;
+    top: 50px;
+    left: 100px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: lightblue;
+  }
+  
+      
+        
