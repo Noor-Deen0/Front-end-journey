@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main (void) {
+    int n=1, y, number, triangularNumber, counter = 1;
+    printf ("How many times do you wish to calculate triangular numbers:");
+    scanf ("%i",&y);
+
+    while ( counter <= y ) {
+        printf("What triangular number do you want? ");
+        scanf("%i", &number);
+        
+        triangularNumber = 0;
+        
+
+        while ( n <= number ) {
+            triangularNumber += n;
+            ++n;  // Increment n inside the loop
+        }
+
+        printf("Triangular number %i is %i\n\n", number, triangularNumber);
+        ++counter;  // Increment counter to move to the next iteration
+    }
+
+    return 0;
+}
